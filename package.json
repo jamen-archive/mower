@@ -1,0 +1,21 @@
+{
+  "name": "mower",
+  "author": "Jamen Marzonie",
+  "version": "0.0.0",
+  "description": "Mow through data using a routine of functions.",
+  "main": "index.js",
+  "repository": "jamen/mower",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "private": false,
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "eslint": "^2.10.2",
+    "eslint-config-google": "^0.5.0",
+    "tape": "^4.5.1"
+  },
+  "license": "MIT"
+}
