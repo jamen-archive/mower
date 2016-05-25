@@ -1,4 +1,4 @@
-exports.mower = function mower(ruleset, options) {
+exports = module.exports = function mower(ruleset, options) {
   ruleset = ruleset || [];
   options = options || {};
 
@@ -19,7 +19,7 @@ exports.mower = function mower(ruleset, options) {
       if (err) {
         throw err;
       }
-      return false;
+      return true;
     };
 
     while (kill.running) {
@@ -52,7 +52,7 @@ exports.mower = function mower(ruleset, options) {
 var Linear = exports.Linear = function(input) {
   this.position = 0;
   this.source = input;
-  this.length = input.length;
+  this.length = input && input.length ? input.length : null;
   this.output = [];
 };
 
