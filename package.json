@@ -1,7 +1,7 @@
 {
   "name": "mower",
   "author": "Jamen Marzonie",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Mow through data using a routine of functions.",
   "main": "index.js",
   "repository": "jamen/mower",
