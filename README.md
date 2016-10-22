@@ -1,4 +1,6 @@
-# Mower
+**Notice:** This repo is no longer maintained.  Contact me regarding the name or code.
+
+# Mower (Archived)
 > Mow through data using a routine of functions.
 
 Mower allows you to define a set of rules that loop and process data.
